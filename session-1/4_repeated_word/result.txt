@@ -1,0 +1,5 @@
+repeated word: ali
+repeated word: reza
+repeated word: two
+repeated word: salam
+END!
