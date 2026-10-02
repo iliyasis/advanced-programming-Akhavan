@@ -6,12 +6,15 @@ int main()
 {
     string word;
     int maxx = -1;
+    string big_word = "";
+
     while (cin >> word)
     {
-        if(word.length() > maxx)
+        if(int(word.size()) > maxx)
         {
-            maxx = word.length();
+            maxx = word.size();
+            big_word = word;
         }
     }
-    
+    cout << big_word << ": " << maxx << endl;
 }
